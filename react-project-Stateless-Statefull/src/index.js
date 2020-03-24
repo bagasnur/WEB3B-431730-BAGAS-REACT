@@ -8,7 +8,13 @@ const CobaStatelessComp = () => {
    return <h1>Stateless Component Success</h1>
 }
 
-ReactDOM.render(<CobaStatelessComp />, document.getElementById('root'));
+class StatefullCompJajal extends React.Component {
+   render(){
+      return <h1>Statefull Component Success</h1>
+   }
+}
+
+ReactDOM.render(<StatefullCompJajal />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
