@@ -3,18 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import CobaStatelessComp from './common/component/profile';
+import StatefullCompJajal from './common/component/about';
 
-const CobaStatelessComp = () => {
-   return <h1>Stateless Component Success</h1>
-}
-
-class StatefullCompJajal extends React.Component {
-   render(){
-      return <h1>Statefull Component Success</h1>
-   }
-}
-
-ReactDOM.render(<StatefullCompJajal />, document.getElementById('root'));
+ReactDOM.render(<CobaStatelessComp />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
