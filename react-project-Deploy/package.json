@@ -2,7 +2,7 @@
   "name": "laporan-react",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://bagasnur.github.io/WEB3B-425959-BAGAS NUR-REACT-DEPLOY",
+  "homepage": "http://bagasnur.github.io/WEB3B-425959-BAGAS_NUR-REACT-DEPLOY",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
